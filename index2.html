@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h4 id="Player1_name"></h4><span id="Player1_score"></span>
+<br>
+<h4 id="Player2_name"></h4><span id="Player2_score"></span>
+<br>
+<div class="container">
+	<center>
+		<h2 style="color: white;">Guess The Word!</h2>
+<h3 id="Player_Equation"></h3>
+<h3 id="Player_Answer"></h3>
+<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+
+		<label>Write an eqation with 6 digits excluding the symbol:<b style="color: red">The symbols are +:plus -:minus *:multiply /:divide</b></label>
+
+		<br>
+<input id="digits" type="text" class="form-control" placeholder="Word" style="width: fit-content; height: fit-content;">
+<br>
+<button id="SendButton" class="btn btn-success" style="width: 30%;" onclick="send()">Send</button>
+	</center>
+</div>
+
+<script src="page.js"></script>
+</body>
+</html>
