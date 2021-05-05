@@ -9,6 +9,7 @@ body
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 
 
@@ -16,6 +17,7 @@ body
 {
 	display: inline-block;
 	margin-left: 20px;
+	
 }
 #word
 {

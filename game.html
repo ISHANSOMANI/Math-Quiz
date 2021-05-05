@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
-<body style="background-color: red;">
+<body style="background: linear-gradient(red,orange,yellow,green,blue,indigo,purple);">
 <h4 id="Player1_name"></h4><span id="Player1_score"></span>
 <br>
 <h4 id="Player2_name"></h4><span id="Player2_score"></span>
@@ -22,10 +22,14 @@
 <h3 id="Player_Answer"></h3>
 <div id="output" class="col-lg-6"></div>
 		<br>
-		<label class="btn btn-warning">write a equation of 2 digit two numbers with answer and sign.</label><br><label class="btnt btn-success">For e.g 3+4=7</label>
-<input id="Answer" type="text" class="form-control" placeholder="Answer" style="width: fit-content; height: fit-content;">
+		<h4> Number 1 </h4>
+		<input type="text" id="no_1" placeholder="enter number 1" class="form-control" style="width: 100%;" >
+		
 
 <br>
+<h4> Number 2 </h4>
+		<input type="text" id="no_2" placeholder="enter number 2" class="form-control" style="width: 100%;" >
+		<br>
 <button id="SendButton" class="btn btn-success" style="width: 30%;" onclick="send()">Send</button>
 	</center>
 </div>
